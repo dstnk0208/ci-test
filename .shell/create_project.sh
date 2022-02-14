@@ -1,0 +1,1 @@
+docker-compose exec web ng new -g --directory ./ app-name
