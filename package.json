@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "test:wait": "wait-on http://localhost:4200 & $(npm bin)/cypress run"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
