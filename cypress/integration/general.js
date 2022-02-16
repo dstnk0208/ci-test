@@ -4,7 +4,7 @@ describe('ci-test general', () => {
     })
     it('general test', () => {
         cy.get('[class="test-button"]').click()
-        cy.get('[class="test-div"')
-            .expect(text()).to.eq("Fired")
+        cy.get('[class="test-div"]')
+            .should('have.text', 'Fired')
     })
 })
